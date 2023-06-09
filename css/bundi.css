@@ -79,3 +79,42 @@ padding: 0.5rem 1rem;
     color: var(--yellow);
 }
 /* Features */
+/* Our Work */
+.work {
+    background-color: var(--section-color);
+}
+.work ul .active {
+    background-color: var(--red);
+    color: var(--yellow);
+}
+.work ul li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.work ul li:not(.active):hover {
+    color: var(--red);
+}
+.work .box {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.work .box::before {
+    content: attr(data-work);
+    position: absolute;
+    left: -100%;
+    background-color: rgb(0 191 255 / 60%);
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+}
+.work .box:hover::before {
+    left: 5px;
+}
+/* Our Work */
