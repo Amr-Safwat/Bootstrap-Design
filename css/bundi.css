@@ -134,3 +134,8 @@ padding: 0.5rem 1rem;
     background-color: var(--green-color);
 }
 /* Our Team */
+/* Project */
+.project {
+    background-color: var(--dark-color);
+}
+/* Project */
