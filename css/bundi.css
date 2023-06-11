@@ -123,3 +123,14 @@ padding: 0.5rem 1rem;
     max-width: 400px;
 }
 /* Stuff */
+/* Our Team */
+.team {
+    background-color: var(--section-color);
+}
+.team h2 {
+    color: var(--yellow);
+}
+.team .box h4 {
+    background-color: var(--green-color);
+}
+/* Our Team */
