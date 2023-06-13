@@ -139,3 +139,20 @@ padding: 0.5rem 1rem;
     background-color: var(--dark-color);
 }
 /* Project */
+/* Subscribe */
+.subscribe {
+    background-color: var(--yellow);
+}
+.subscribe .input {
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+.subscribe .input::placeholder {
+    color: white;
+}
+.subscribe .btn {
+    background-color: var(--dark-color);
+    color: var(--yellow);
+}
+/* Subscribe */
