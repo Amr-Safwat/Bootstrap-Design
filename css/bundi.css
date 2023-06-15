@@ -156,3 +156,30 @@ padding: 0.5rem 1rem;
     color: var(--yellow);
 }
 /* Subscribe */
+/* Footer */
+.footer {
+    background-color: var(--dark-color);
+}
+.footer .copyright > span {
+    color: var(--green-color);
+}
+.footer .copyright div span {
+    color: var(--yellow);
+}
+.footer .contact ul svg {
+    width: 20px;
+    height: 20px;
+}
+.footer .contact ul .facebook {
+    background-color: #1877f2;
+}
+.footer .contact ul .github {
+    background-color: #333;
+}
+.footer .contact ul .linkedin {
+    background-color: #0a66c2;
+}
+.footer .contact ul .youtube {
+    background-color: #ff0000;
+}
+/* Footer */
